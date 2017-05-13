@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Votinsdfasg from './components/Voting';
+import Voting from './components/Voting';
 
 const pair = ['Trainspotting', '28 Days Later'];
 

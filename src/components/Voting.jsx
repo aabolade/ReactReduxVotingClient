@@ -1,6 +1,7 @@
 import React from 'react';
 
-export default React.createClass({
+var createReactClass = require('create-react-class');
+export default createReactClass({
   getPair: function() {
     return this.props.pair || [];
   },
