@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import Winner from './Winner';
 import Vote from './Vote';
 
-export const Voting =  React.createClass({
+const Voting = React.createClass({
   mixins: [PureRenderMixin],
   render: function() {
     return <div>
@@ -22,4 +22,6 @@ function mapStateToProps(state) {
   };
 }
 
-export const VotingContainer = connect(mapStateToProps)(Voting);
+connect(mapStateToProps)(Voting);
+
+export default Voting;
